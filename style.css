@@ -177,3 +177,9 @@ main {
 .movie:hover .overview {
 	transform: translateY(0);
 }
+
+@media screen and (max-width: 600px) {
+  .nav-wrapper {
+    justify-content: space-around;
+  }
+}
